@@ -1,6 +1,6 @@
-package com.rpg.demo.usuario.repository;
+package com.rpg.demo.usuario.repositoryUser;
 
-import com.rpg.demo.usuario.entity.UsuarioEntity;
+import com.rpg.demo.usuario.entityUser.UsuarioEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

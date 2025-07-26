@@ -1,7 +1,7 @@
 package com.rpg.demo.usuario.findUser;
 
-import com.rpg.demo.usuario.entity.UsuarioEntity;
-import com.rpg.demo.usuario.repository.UsuarioRepository;
+import com.rpg.demo.usuario.entityUser.UsuarioEntity;
+import com.rpg.demo.usuario.repositoryUser.UsuarioRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

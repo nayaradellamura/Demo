@@ -1,7 +1,6 @@
 package com.rpg.demo.perfil.findPerfil;
 
-import com.rpg.demo.perfil.entity.PerfilEntity;
-import com.rpg.demo.usuario.findUser.FindUserDto;
+import com.rpg.demo.perfil.entityPerfil.PerfilEntity;
 
 import java.util.List;
 

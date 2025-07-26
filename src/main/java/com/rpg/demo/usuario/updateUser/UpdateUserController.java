@@ -1,7 +1,7 @@
 package com.rpg.demo.usuario.updateUser;
 
 import com.rpg.demo.shared.response.ResponseDto;
-import com.rpg.demo.usuario.entity.UsuarioEntity;
+import com.rpg.demo.usuario.entityUser.UsuarioEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

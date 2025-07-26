@@ -1,6 +1,6 @@
 package com.rpg.demo.usuario.createUser;
 
-import com.rpg.demo.usuario.repository.UsuarioRepository;
+import com.rpg.demo.usuario.repositoryUser.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;

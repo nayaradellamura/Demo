@@ -1,6 +1,6 @@
 package com.rpg.demo.usuario.findUser;
 
-import com.rpg.demo.usuario.entity.UsuarioEntity;
+import com.rpg.demo.usuario.entityUser.UsuarioEntity;
 
 import java.util.List;
 

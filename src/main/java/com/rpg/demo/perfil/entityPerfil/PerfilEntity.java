@@ -1,7 +1,7 @@
-package com.rpg.demo.perfil.entity;
+package com.rpg.demo.perfil.entityPerfil;
 
 import com.rpg.demo.perfil.enums.TipoPerfil;
-import com.rpg.demo.usuario.entity.UsuarioEntity;
+import com.rpg.demo.usuario.entityUser.UsuarioEntity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

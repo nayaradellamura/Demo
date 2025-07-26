@@ -1,6 +1,6 @@
 package com.rpg.demo.perfil.deletePerfil;
 
-import com.rpg.demo.perfil.repository.PerfilRepository;
+import com.rpg.demo.perfil.repositoryPerfil.PerfilRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

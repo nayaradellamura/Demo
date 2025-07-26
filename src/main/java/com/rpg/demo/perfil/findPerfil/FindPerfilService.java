@@ -1,7 +1,7 @@
 package com.rpg.demo.perfil.findPerfil;
 
-import com.rpg.demo.perfil.entity.PerfilEntity;
-import com.rpg.demo.perfil.repository.PerfilRepository;
+import com.rpg.demo.perfil.entityPerfil.PerfilEntity;
+import com.rpg.demo.perfil.repositoryPerfil.PerfilRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

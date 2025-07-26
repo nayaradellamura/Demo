@@ -1,6 +1,6 @@
 package com.rpg.demo.usuario.createUser;
 
-import com.rpg.demo.usuario.entity.UsuarioEntity;
+import com.rpg.demo.usuario.entityUser.UsuarioEntity;
 
 public class CreateUserMapper {
 

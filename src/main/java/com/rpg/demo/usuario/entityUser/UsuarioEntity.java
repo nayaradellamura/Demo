@@ -1,4 +1,4 @@
-package com.rpg.demo.usuario.entity;
+package com.rpg.demo.usuario.entityUser;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -14,9 +14,12 @@ public class UsuarioEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @Column(nullable = false)
     private String nome;
 
+    @Column(nullable = false)
     private String email;
 
+    @Column(nullable = false)
     private String senha;
 }

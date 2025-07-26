@@ -1,8 +1,7 @@
 package com.rpg.demo.perfil.createPerfil;
 
-import com.rpg.demo.perfil.entity.PerfilEntity;
+import com.rpg.demo.perfil.entityPerfil.PerfilEntity;
 import com.rpg.demo.shared.response.ResponseDto;
-import com.rpg.demo.usuario.entity.UsuarioEntity;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
