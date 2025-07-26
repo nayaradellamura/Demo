@@ -24,7 +24,7 @@ public class FindUserController {
         return ResponseEntity.ok(findUserDto);
     }
 
-    @GetMapping
+    @GetMapping("/find")
     public ResponseEntity<List<FindUserDto>> buscarTodos() {
         List<FindUserDto> usuarios = findUserService.buscarTodos();
         return ResponseEntity.ok(usuarios);

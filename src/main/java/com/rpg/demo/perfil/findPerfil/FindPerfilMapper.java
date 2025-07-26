@@ -3,6 +3,8 @@ package com.rpg.demo.perfil.findPerfil;
 import com.rpg.demo.perfil.entity.PerfilEntity;
 import com.rpg.demo.usuario.findUser.FindUserDto;
 
+import java.util.List;
+
 public class FindPerfilMapper {
 
     public static FindPerfilDto toDto (PerfilEntity perfil){
@@ -11,5 +13,11 @@ public class FindPerfilMapper {
                 perfil.getUsuario().getId().longValue(),
                 perfil.getTipo().name()
         );
+    }
+
+    public static List<FindPerfilDto> toDtoList(List<PerfilEntity> perfil) {
+        return perfil.stream()
+                .map(FindPerfilMapper::toDto)
+                .toList();
     }
 }
